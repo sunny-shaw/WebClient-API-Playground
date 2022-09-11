@@ -21,6 +21,13 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-reactor")
+    implementation("org.jboss.spec.javax.ws.rs:jboss-jaxrs-api_2.1_spec:1.0.3.Final")
+    implementation("org.jboss.resteasy:resteasy-reactor:4.6.0.Final")
+    implementation("org.jboss.resteasy:resteasy-jackson2-provider:3.6.2.Final")
+    implementation("org.springframework.boot:spring-boot-starter-webflux:2.7.1")
+
+
+
     testImplementation("org.springframework.boot:spring-boot-starter-test") {
         exclude(group = "org.junit.vintage", module = "junit-vintage-engine")
     }
